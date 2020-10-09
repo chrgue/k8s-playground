@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: nextjs-app
-          image: chrgue/nextjs-prototype
+          image: "chrgue/nextjs-example:v0.0.1"
           ports:
             - containerPort: 3000
 ---
